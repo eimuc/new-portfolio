@@ -1,0 +1,20 @@
+import activeLink from './components/activeLink.js';
+import changeTheme from './components/changeTheme.js';
+import mobileMenu from './components/mobileMenu.js';
+import renderPortfolio from './components/portfolio/renderPortfolio.js';
+import portfolioSwiper from './components/portfolioSwiper.js';
+import qualificationTabs from './components/qualificationTabs.js';
+import scrollHeader from './components/scrollHeader.js';
+import scrollUp from './components/scrollUp.js';
+import toggleSkills from './components/toggleSkills.js';
+import { portfolioData } from './components/portfolio/portfolioData.js';
+
+renderPortfolio(portfolioData);
+mobileMenu();
+toggleSkills();
+qualificationTabs();
+portfolioSwiper();
+activeLink();
+scrollUp();
+changeTheme();
+scrollHeader();
