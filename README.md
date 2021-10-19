@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-https://eimantas-andrejevas.lt/old
+https://eimantas-andrejevas.lt
